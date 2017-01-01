@@ -43,7 +43,7 @@ function getHeartPoint(angle) {
 }
 
 function startHeartAnimation() {
-    var interval = 50;
+    var interval = 20;
     var angle = 10;
     var heart = [];
     var animationTimer = setInterval(function () {
@@ -117,7 +117,7 @@ function timeElapse(date) {
 
 function showMessages() {
     adjustWordsPosition();
-    $('#messages').fadeIn(5000, function () {
+    $('#messages').fadeIn(3000, function () {
         showLoveU();
     });
 }
